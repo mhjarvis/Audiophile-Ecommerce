@@ -1,0 +1,15 @@
+.navigation__container {
+	display: flex;
+}
+
+.navigation__logo {
+	order: 2;
+}
+
+.navigation__hamburger-menu {
+	order: 1;
+}
+
+.navigation__cart {
+	order: 3;
+}
