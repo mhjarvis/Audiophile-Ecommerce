@@ -36,3 +36,7 @@
 	width: 2.3rem;
 	height: 2rem;
 }
+
+.navigation__cart:hover {
+	cursor: pointer;
+}
