@@ -29,6 +29,7 @@ export default function Navigation() {
 					className="navigation__cart"
 				></img>
 			</div>
+			<div>test</div>
 		</section>
 	);
 }
