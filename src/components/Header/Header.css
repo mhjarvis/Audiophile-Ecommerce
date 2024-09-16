@@ -1,0 +1,26 @@
+/************************************************
+			Header Containers & Image
+************************************************/
+
+.header__section {
+	/* 	background-color: var(--lightBlack);
+ */
+	width: 500px;
+	background-color: pink;
+	margin: 0 auto;
+}
+
+.header__container {
+	/* 	max-width: 1440px;
+ */
+}
+
+/************************************************
+			    Header Image
+************************************************/
+
+.header__image {
+	border: 1px solid red;
+	margin: 0 auto;
+	filter: brightness(0.64);
+}
