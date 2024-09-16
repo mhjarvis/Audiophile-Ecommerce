@@ -1,17 +1,26 @@
+/************************************************
+			Navigation Containers
+************************************************/
+
 .navigation__section {
-	padding-bottom: 0;
+	padding: 3.2rem 2.4rem;
+	background-color: var(--lightBlack);
 }
 
 .navigation__container {
 	display: flex;
+	max-width: 1440px;
 	align-items: center;
 	justify-content: space-between;
-	max-width: 37.5rem;
 	margin: 0 auto;
 	background-color: var(--lightBlack);
 	padding-bottom: 3.2rem;
 	border-bottom: 0.1px solid #373636;
 }
+
+/************************************************
+				Navigation Logo
+************************************************/
 
 .navigation__logo {
 	order: 2;
@@ -21,6 +30,24 @@
 	font-family: "Manrope";
 }
 
+@media screen and (min-width: 768px) {
+	.navigation__logo {
+		order: 1;
+		position: absolute;
+		left: 8rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.navigation__logo {
+		position: relative;
+		left: 0;
+	}
+}
+
+/************************************************
+			Navigation Hamburger
+************************************************/
 .navigation__hamburger-menu {
 	order: 1;
 	width: 1.6rem;
@@ -28,9 +55,19 @@
 	color: var(--white);
 }
 
+@media screen and (min-width: 1024px) {
+	.navigation__hamburger-menu {
+		display: none;
+	}
+}
+
 .navigation__hamburger-menu:hover {
 	cursor: pointer;
 }
+
+/************************************************
+				Navigation Cart
+************************************************/
 
 .navigation__cart {
 	order: 3;
@@ -40,4 +77,34 @@
 
 .navigation__cart:hover {
 	cursor: pointer;
+}
+
+/************************************************
+				Navigation List
+************************************************/
+
+.navigation__list {
+	display: none;
+}
+
+.navigation__list-item {
+	color: white;
+}
+
+.navigation__list-item:hover {
+	color: var(--darkOrange);
+}
+
+@media screen and (min-width: 1024px) {
+	.navigation__list {
+		display: flex;
+		gap: 4rem;
+		order: 2;
+		font-size: 1.3rem;
+		letter-spacing: 2px;
+		margin-right: 4vw;
+	}
+
+	.navigation__list-item {
+	}
 }
