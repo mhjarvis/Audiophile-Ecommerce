@@ -74,6 +74,12 @@
  */
 }
 
+@media screen and (min-width: 1024px) {
+	.header__image img {
+		transform: translateY(-100px);
+	}
+}
+
 /************************************************
 			    Header Text
 ************************************************/
