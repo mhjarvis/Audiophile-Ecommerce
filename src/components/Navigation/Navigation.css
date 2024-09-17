@@ -88,10 +88,16 @@
 }
 
 .navigation__list-item {
+	list-style: none;
+	text-decoration: none;
+}
+
+.navigation__list-item a {
+	text-decoration: none;
 	color: white;
 }
 
-.navigation__list-item:hover {
+.navigation__list-item a:hover {
 	color: var(--darkOrange);
 }
 
