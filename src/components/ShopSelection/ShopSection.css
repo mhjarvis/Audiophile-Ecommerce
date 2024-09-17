@@ -1,0 +1,3 @@
+.shop-section__container:not(:last-child) {
+	margin-bottom: 7rem;
+}
